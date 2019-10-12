@@ -1,5 +1,4 @@
 require 'sinatra'
-require 'sinatra/reloader' if production?
 require_relative 'caesars_cipher.rb'
 
 get '/' do
