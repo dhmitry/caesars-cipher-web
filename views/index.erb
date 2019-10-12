@@ -1,0 +1,13 @@
+<form>
+    <div class="form-group">
+        <label for="message">Message</label>
+        <input type="text" class="form-control" name="message" placeholder="Enter message">
+        <label for="number">Key</label>
+        <input type="number" class="form-control" name="key" min="1" placeholder="Enter key">
+    </div>
+
+    <input class="btn btn-primary" type="submit" value="Encode" name="action">
+    <input class="btn btn-primary" type="submit" value="Decode" name="action">
+</form>
+<hr>
+<h3>Result: <%= @result %></h3>
