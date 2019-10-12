@@ -16,7 +16,7 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
-  sinatra!
+  sinatra
 
 BUNDLED WITH
    1.17.2
